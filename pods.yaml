@@ -1,0 +1,25 @@
+ apiVersion: v1
+
+ kind: Pod
+
+ metadata:
+
+   name: app
+
+   labels:
+
+     app: app
+
+ spec:
+
+   containers:
+
+     - name: app
+
+       image: docker.io/pratik1998/hellous:firsthello
+
+       ports:
+
+         - containerPort: 80
+
+    
